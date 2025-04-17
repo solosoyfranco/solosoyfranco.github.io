@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Just Franco</title>
+    <link>https://solosoyfranco.github.io/es/posts/</link>
+    <description>Recent content in Posts on Just Franco</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Thu, 17 Apr 2025 14:17:53 -0400</lastBuildDate>
+    <atom:link href="https://solosoyfranco.github.io/es/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bienvenido</title>
+      <link>https://solosoyfranco.github.io/es/posts/welcome/</link>
+      <pubDate>Thu, 17 Apr 2025 14:17:53 -0400</pubDate>
+      <guid>https://solosoyfranco.github.io/es/posts/welcome/</guid>
+      <description>&lt;h1 id=&#34;hola-&#34;&gt;Hola 👋&lt;/h1&gt;&#xA;&lt;p&gt;Este blog aún está &lt;strong&gt;en construcción&lt;/strong&gt;. Durante las próximas semanas, empezaré a mover muchas de mis notas personales, experimentos y documentación técnica desde &lt;strong&gt;Obsidian &amp;amp; Notion&lt;/strong&gt; a este blog público — con la intención de que tal vez puedan servirle a alguien más.&lt;/p&gt;&#xA;&lt;p&gt;Los temas incluirán:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Infraestructura de TI, DevOps, homelabs&lt;/li&gt;&#xA;&lt;li&gt;Desarrollo de software (Python, React, Django, etc.)&lt;/li&gt;&#xA;&lt;li&gt;Ciberseguridad, redes, automatización&lt;/li&gt;&#xA;&lt;li&gt;Impresión 3D, electrónica y proyectos personales&lt;/li&gt;&#xA;&lt;li&gt;Algo de Inteligencia Artificial, LLMs y crecimiento personal&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Gracias por visitar. Pronto habrá más contenido.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
