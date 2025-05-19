@@ -4,9 +4,9 @@ title = 'Welcome'
 slug = 'welcome'
 +++
 
-# Hi 👋 
+# Hi 👋 :) 
 
-This blog is currently **in progress**. Over the next few weeks, I’ll begin migrating many of my personal notes, experiments, and technical documentation from **Obsidian & Notion** to this public space — in hopes that some of it may help others too.
+This blog is currently **in progress**. Over the next few weeks, I’ll begin migrating many of my personal notes, experiments, and technical documentation from **Obsidian & Notion** to this public space — in hopes that some of it may help others too..
 
 Topics will range from:
 
@@ -16,4 +16,4 @@ Topics will range from:
 - 3D printing, electronics, and side projects  
 - Some AI, LLMs, and personal growth  
 
-Thanks for stopping by. More coming soon.
+Thanks for stopping by. More coming soon..
