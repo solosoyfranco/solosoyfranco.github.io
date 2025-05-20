@@ -26,6 +26,12 @@ enableRobotsTXT = true
   weight = 20
 
 [[menus.main]]
+  name = "Cheatsheets"
+  url = "/tags/cheatsheet/"
+  weight = 25
+
+
+[[menus.main]]
   name = "Resume"
   pageRef = "/resume"
   weight = 30
