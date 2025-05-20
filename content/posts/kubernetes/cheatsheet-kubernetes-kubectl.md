@@ -90,6 +90,13 @@ alias kdf="kubectl delete -f"
 ```
 
 ---
+<div class="link-card">
+  <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands" target="_blank">
+    <strong>📘 Official kubectl Command Reference</strong><br>
+    https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
+  </a>
+</div>
+---
 
 I’ve always been someone who values doing things the right way. While you can run Kubernetes on almost any server, I believe Talos Linux provides an exceptional foundation — offering a secure, minimal, and purpose-built platform for running Kubernetes clusters. 
 
