@@ -2,7 +2,7 @@
 title= 'Kubernetes kubectl Cheatsheet with Talos Linux'
 date= '2025-05-20'
 description= 'A practical kubectl command reference tailored for Talos Linux environments.'
-tags= 'kubernetes, talos, cheatsheet, devops, homelab'
+tags = ['kubernetes', 'talos', 'cheatsheet', 'devops', 'homelab']
 +++
 # Cheatsheet - Kubernetes `kubectl` & Talos Linux
 

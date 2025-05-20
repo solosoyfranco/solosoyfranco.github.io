@@ -2,7 +2,7 @@
 title= 'Guia de comandos kubectl para Kubernetes con Talos Linux'
 date= '2025-05-20'
 description= 'Una referencia práctica de comandos kubectl adaptada a entornos con Talos Linux.'
-tags= 'kubernetes, talos, cheatsheet, devops, homelab'
+tags = ['kubernetes', 'talos', 'cheatsheet', 'devops', 'homelab']
 +++
 # Guia - Kubernetes `kubectl` & Talos Linux
 
