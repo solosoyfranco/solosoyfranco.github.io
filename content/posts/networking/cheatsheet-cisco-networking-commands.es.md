@@ -1,11 +1,11 @@
 +++
-title= 'Cheatsheet Essential Cisco Networking Commands '
+title= 'Cheatsheet: Cisco Networking Commands '
 date= '2025-05-20'
 description= 'collection of useful Cisco CLI commands for secure network administration'
 tags = ['cisco', 'networking', 'cheatsheet']
 +++
 
-# Guia Rapida de Comandos CLI de Cisco IOS para administracion de Redes
+# Comandos CLI de Cisco IOS para administracion de Redes
 
 Esta guía incluye algunos de los comandos más útiles del CLI de Cisco IOS que he utilizado para administrar redes tanto en laboratorios como en entornos de producción. Cubre desde protección básica de acceso e aislamiento de VLAN hasta configuración avanzada de ACLs, NAT y LACP.
 
