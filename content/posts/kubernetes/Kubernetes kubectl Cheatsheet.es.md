@@ -1,9 +1,9 @@
-
-## title: "Guia de comandos kubectl para Kubernetes con Talos Linux"  
-date: 2025-05-20  
-description: "Una referencia práctica de comandos kubectl adaptada a entornos con Talos Linux."  
-tags: [kubernetes, talos, cheatsheet, devops, homelab]
-
++++
+title= 'Guia de comandos kubectl para Kubernetes con Talos Linux'
+date= '2025-05-20'
+description= 'Una referencia práctica de comandos kubectl adaptada a entornos con Talos Linux.'
+tags= 'kubernetes, talos, cheatsheet, devops, homelab'
++++
 # Guia - Kubernetes `kubectl` & Talos Linux
 
 Este es un resumen de referencia rápida que preparé para ayudarme a gestionar mis clústeres de Kubernetes con Talos Linux, tanto en casa como en el trabajo. Como `kubectl` es mi herramienta principal para las operaciones diarias, espero que esta guía también sea útil para otros que estén trabajando con configuraciones similares.

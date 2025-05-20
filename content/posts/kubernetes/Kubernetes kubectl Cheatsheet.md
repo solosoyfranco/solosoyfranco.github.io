@@ -1,8 +1,9 @@
-## title: "Kubernetes kubectl Cheatsheet with Talos Linux"  
-date: 2025-05-20  
-description: "A practical kubectl command reference tailored for Talos Linux environments."  
-tags: [kubernetes, talos, cheatsheet, devops, homelab]
-
++++
+title= 'Kubernetes kubectl Cheatsheet with Talos Linux'
+date= '2025-05-20'
+description= 'A practical kubectl command reference tailored for Talos Linux environments.'
+tags= 'kubernetes, talos, cheatsheet, devops, homelab'
++++
 # Cheatsheet - Kubernetes `kubectl` & Talos Linux
 
 Here’s a quick reference guide I put together to help manage my Talos Linux Kubernetes clusters — both at home and at work. Since `kubectl` is my main tool for daily operations, I hope this guide also proves useful to others navigating similar setups.
