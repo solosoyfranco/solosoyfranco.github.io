@@ -1,11 +1,11 @@
 +++
-title = 'SQL Cheatsheet para el uso diario'
+title = 'Cheatsheet: SQL'
 date = '2025-05-21'
 description = 'SQL - guia de referencia donde cubre  SELECTs, INSERTs, UPDATEs, JOINs, etc'
 tags = ['sql', 'database', 'cheatsheet', 'dev']
 +++
 
-# SQL - Referencia Rápida
+# SQL - Referencia Rapida
   
 
 Esta guia está basada en notas que he recopilado con el tiempo. Aplica para PostgreSQL, MySQL o SQLite. Los comandos cubren consultas, filtrado, modificación y unión de datos.
