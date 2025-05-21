@@ -1,8 +1,8 @@
 +++
-title = ‘SQL Cheatsheet para el uso diario’
-date = ‘2025-05-21’
-description = ‘SQL - guia de referencia donde cubre  SELECTs, INSERTs, UPDATEs, JOINs, etc’
-tags = [‘sql’, ‘database’, ‘cheatsheet’, ‘querying’, ‘dev’]
+title = 'SQL Cheatsheet para el uso diario'
+date = '2025-05-21'
+description = 'SQL - guia de referencia donde cubre  SELECTs, INSERTs, UPDATEs, JOINs, etc'
+tags = ['sql', 'database', 'cheatsheet', 'dev']
 +++
 
 # SQL - Referencia Rápida
