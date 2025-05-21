@@ -3,7 +3,6 @@ title = ‘SQL Cheatsheet para el uso diario’
 date = ‘2025-05-21’
 description = ‘SQL - guia de referencia donde cubre  SELECTs, INSERTs, UPDATEs, JOINs, etc’
 tags = [‘sql’, ‘database’, ‘cheatsheet’, ‘querying’, ‘dev’]
-categories = [‘Data’]
 +++
 
 # SQL - Referencia Rápida
