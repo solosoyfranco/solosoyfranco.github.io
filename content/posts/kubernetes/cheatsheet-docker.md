@@ -4,7 +4,6 @@ date= '2025-05-21'
 description= 'my essential Docker CLI commands '
 tags = ['docker', 'cheatsheet', 'containers', 'devops', 'linux']
 +++
-# Docker CLI 
 
 my notes and reference for common Docker commands, organized by task. Nothing crazy, just useful.
 <!--more-->

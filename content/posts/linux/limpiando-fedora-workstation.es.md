@@ -5,8 +5,6 @@ description= 'mantenimiento y limpieza de Fedora Workstation '
 tags = ['fedora', 'linux', 'cleaning', 'maintenance', 'workstation' ]
 +++
 
-# Limpieza de Fedora Workstation
-
 Después de meses de uso, pruebas de software y muchos ajustes, mi instalación de Fedora Workstation sigue siendo confiable y sólida.
 
 Fedora se ha convertido en mi distribución preferida para desarrollo, productividad en escritorio y gaming. Usando Hyprland (en particular ML4W Hyprland), es rápida, moderna y sorprendentemente estable.
