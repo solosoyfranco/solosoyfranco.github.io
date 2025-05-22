@@ -1,29 +1,13 @@
 +++
-title= 'FortiGate - Setup and Config notes'
+title= 'FortiGate - Notas de configuracion'
 date= '2025-05-22'
 description= 'Guia de configuracion que he usado para equipos fortigate'
 tags = ['fortigate', 'firewall', 'networking', 'security' ]
 +++
   
-+++
-
-title= ‘FortiGate - Notas de configuración y puesta en marcha’
-
-date= ‘2025-05-22’
-
-description= ‘Guía con configuraciones comunes que uso, comandos CLI y buenas prácticas de seguridad para firewalls FortiGate.’
-
-tags = [‘fortigate’, ‘firewall’, ‘networking’, ‘security’]
-
-+++
-
-  
-
 A lo largo de los años, he trabajado con muchos equipos FortiGate en diferentes ubicaciones. Estas son algunas de mis notas donde recopilo los cambios, configuraciones y comandos CLI más comunes que utilizo para estandarizar y asegurar las implementaciones.
-
-```
 <!--more-->
-```
+
 
 ---
 
@@ -120,7 +104,7 @@ Esto permite crear reglas de firewall detalladas entre interfaces.
 
 ### **Monitoreo General & Debug**
 
-```
+```bash
 get system status
 get system performance status
 get system performance top
@@ -131,7 +115,7 @@ diagnose sys top
 
 ### **Interfaces y Ruteo**
 
-```
+```bash
 get system interface
 diagnose ip address list
 get router info routing-table all
@@ -140,7 +124,7 @@ execute traceroute www.google.com
 
 ### **Logs y Diagnóstico**
 
-```
+```bash
 diag debug cli 6
 diag debug enable
 # Ejecutar acciones en la GUI
@@ -154,7 +138,7 @@ diagnose debug disable
 
 ### **Comandos VPN**
 
-```
+```bash
 get vpn ipsec tunnel summary
 diagnose vpn ssl restart
 diagnose debug enable
@@ -164,21 +148,21 @@ diagnose debug console timestamp enable
 
 ### **Respaldo y Restauración**
 
-```
+```bash
 execute backup config ftp <server> <usuario> <contraseña> <archivo>
 execute restore config ftp <archivo> <server> <usuario> <contraseña>
 ```
 
 ### **Firmware y Actualizaciones**
 
-```
+```bash
 get system status
 execute restore image tftp <nombre-imagen> <ip-tftp>
 ```
 
 ### **Gestión de Políticas y Objetos**
 
-```
+```bash
 show firewall policy
 show firewall address
 
@@ -192,7 +176,7 @@ end
 
 ---
 
-## **🧱 Tareas Comunes en FortiGate**
+## **🧱 Tareas Comunes**
 
 - Configurar rutas estáticas para VPN y conmutación por error WAN
     
@@ -213,7 +197,7 @@ end
 
 ---
 
-Estas notas están basadas en mi experiencia práctica con firewalls FortiGate en diferentes entornos. Espero que sean útiles para quien esté configurando o manteniendo estos dispositivos.
+Estas notas están basadas en mi experiencia práctica con firewalls FortiGate en diferentes entornos y sitios. Espero que sean útiles para quien esté configurando o manteniendo estos dispositivos.
 
   
 
