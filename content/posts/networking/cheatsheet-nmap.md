@@ -1,36 +1,18 @@
 +++
-title= 'TITLE'
-date= '2025-05-20'
-description= ' '
-tags = [' ', ' ']
+title= 'Cheatsheet: Nmap Commands'
+date= '2025-05-22'
+description= 'Nmap scan cmd for discovery, enumeration, firewall detection, etc'
+tags = ['nmap', 'networking', 'cheatsheet']
 +++
-+++
-
-title = ‘Cheatsheet: Nmap Commands’
-
-date = ‘2025-05-21’
-
-description = ‘Common Nmap scan profiles for discovery, enumeration, firewall detection, and more.’
-
-tags = [‘nmap’, ‘networking’, ‘cheatsheet’, ‘security’, ‘infosec’]
-
-categories = [‘Security’]
-
-+++
-
-  
-
-# **Nmap Cheatsheet**
-
-  
 
 A practical list of commonly used Nmap scan profiles. Use these to discover hosts, detect services, find open ports, trace routes, and identify firewall rules.
+<!--more-->
 
 ---
 
-## **Host Discovery & Network Mapping**
+## Host & Network Mapping
 
-```
+```bash
 # List network interfaces on the scanning host
 nmap --iflist
 
@@ -46,9 +28,9 @@ nmap -PR 192.168.1.0/24
 
 ---
 
-## **Port Scanning**
+## Port Scanning
 
-```
+```bash
 # Scan for open ports (default 1000 ports)
 nmap TARGET
 
@@ -82,9 +64,9 @@ nmap -T1 TARGET
 
 ---
 
-## **Service & OS Detection**
+## Service & OS Detection
 
-```
+```bash
 # Detect service versions on open ports
 nmap -sV TARGET
 
@@ -100,9 +82,9 @@ nmap -A TARGET
 
 ---
 
-## **Script Scans & Vulnerability Detection**
+## Script Scans & Vulnerability Detection
 
-```
+```bash
 # Default scripts
 nmap -sC TARGET
 
@@ -121,9 +103,9 @@ nmap -sV --script vulners TARGET
 
 ---
 
-## **Advanced Scans**
+## Advanced Scans
 
-```
+```bash
 # Aggressive scan with OS/service detection, script scan, traceroute
 nmap -A TARGET
 
@@ -136,9 +118,9 @@ nmap -p- -A -sC TARGET
 
 ---
 
-## **Output Options**
+## Output Options
 
-```
+```bash
 # Save output to normal text file
 nmap -oN output.txt TARGET
 
@@ -151,9 +133,9 @@ nmap -oA scan_result TARGET
 
 ---
 
-## **Named Profiles (Short Descriptions)**
+## Named Profiles (Short Descriptions)
 
-```
+```bash
 nmap_open_ports:        scan for open ports on target
 nmap_list_interfaces:   list all interfaces (nmap --iflist)
 nmap_slow:              slow scan, stealthier (nmap -T1)
@@ -173,8 +155,7 @@ nmap_ping_scan:         ICMP ping scan (nmap -sn)
 
 ---
 
-Use Nmap responsibly. Some scans (e.g., -A, --script, -sU, -p-) are noisy and may trigger firewalls or alert systems.
+Remember, some scans (e.g., -A, --script, -sU, -p-) are noisy and may trigger firewalls or alert systems.
 
-  
 
 — Franco
