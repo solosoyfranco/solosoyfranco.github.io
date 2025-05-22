@@ -7,6 +7,7 @@ slug = 'welcome'
 # Hola 👋 
 
 Este blog aún está **en construcción**. Durante las próximas semanas, empezaré a mover muchas de mis notas personales, experimentos y documentación técnica desde **Obsidian & Notion** a este blog público — con la intención de que tal vez puedan servirle a alguien más.
+<!--more-->
 
 Los temas incluirán:
 

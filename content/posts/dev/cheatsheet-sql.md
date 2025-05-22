@@ -8,6 +8,7 @@ tags = ['sql', 'database', 'cheatsheet', 'dev']
 # SQL - Quick Reference
 
 This cheatsheet is built from my notes collected over time. Can apply to PostgreSQL, MySQL, or SQLite, these commands are for querying, filtering, modifying, and joining data.
+<!--more-->
 
 ---
 

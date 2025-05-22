@@ -7,6 +7,7 @@ tags = ['kubernetes', 'talos', 'cheatsheet', 'devops', 'homelab']
 # Kubernetes `kubectl` & Talos Linux
 
 Here’s a quick reference guide I put together to help manage my Talos Linux Kubernetes clusters... both at home and at work. Since `kubectl` is my main tool for daily operations, I hope this guide also proves useful to others navigating similar setups.
+<!--more-->
 
 ##  Cluster Info
 

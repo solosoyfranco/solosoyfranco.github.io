@@ -8,6 +8,7 @@ tags = ['cisco', 'networking', 'cheatsheet']
 # Comandos CLI de Cisco IOS para administracion de Redes
 
 Esta guía incluye algunos de los comandos más útiles del CLI de Cisco IOS que he utilizado para administrar redes tanto en laboratorios como en entornos de producción. Cubre desde protección básica de acceso e aislamiento de VLAN hasta configuración avanzada de ACLs, NAT y LACP.
+<!--more-->
 
 ---
 

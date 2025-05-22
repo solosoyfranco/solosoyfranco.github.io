@@ -10,6 +10,7 @@ tags = ['fedora', 'linux', 'cleaning', 'maintenance', 'workstation' ]
 After months of daily use, testing software, and general tinkering, my Fedora Workstation setup continues to be reliable and solid.
 
 Fedora has become my go-to distro for development, desktop productivity, and gaming. Running Hyprland (specifically ML4W Hyprland), it’s fast, modern, and refreshingly stable.
+<!--more-->
 
 ---
 

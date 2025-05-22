@@ -9,6 +9,7 @@ tags = ['sql', 'database', 'cheatsheet', 'dev']
   
 
 Esta guia está basada en notas que he recopilado con el tiempo. Aplica para PostgreSQL, MySQL o SQLite. Los comandos cubren consultas, filtrado, modificación y unión de datos.
+<!--more-->
 
 ---
 

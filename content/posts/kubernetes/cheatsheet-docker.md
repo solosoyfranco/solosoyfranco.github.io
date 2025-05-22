@@ -7,6 +7,7 @@ tags = ['docker', 'cheatsheet', 'containers', 'devops', 'linux']
 # Docker CLI 
 
 my notes and reference for common Docker commands, organized by task. Nothing crazy, just useful.
+<!--more-->
 
 ---
 

@@ -7,6 +7,7 @@ slug = 'welcome'
 # Hi 👋 
 
 This blog is currently **in progress**. Over the next few weeks, I’ll begin migrating many of my personal notes, experiments, and technical documentation from **Obsidian & Notion** to this public space — in hopes that some of it may help others too.
+<!--more-->
 
 Topics will range from:
 

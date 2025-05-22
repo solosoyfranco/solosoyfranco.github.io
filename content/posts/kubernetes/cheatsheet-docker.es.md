@@ -7,6 +7,7 @@ tags = ['docker', 'cheatsheet', 'containers', 'devops', 'linux']
 # Docker CLI
 
 Algunas notas y referencias para los comandos comunes de Docker, organizados en secciones. Nada especial, simple.
+<!--more-->
 
 ---
 
