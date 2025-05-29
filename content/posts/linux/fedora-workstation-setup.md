@@ -41,7 +41,7 @@ Here are some of my notes for my Fedora 42 workstation and VM gaming environment
 
 ---
 
-## **🧱 System Update & Basic Apps**
+##  System Update & Basic Apps
 
 ```
 sudo dnf update
@@ -60,7 +60,7 @@ flatpak install flathub org.mozilla.Thunderbird
 
 ---
 
-## **🎨 Hyprland & SDDM Setup**
+## Hyprland & SDDM Setup
 
   
 
@@ -80,7 +80,7 @@ sudo reboot
 
 ---
 
-## **🖥️ Kitty Terminal Customization**
+## Kitty Terminal Customization
 
   
 
@@ -94,7 +94,7 @@ clipboard_control write-clipboard write-primary
 
 ---
 
-## **🧪 VFIO GPU Passthrough Setup (NVIDIA 4090)**
+## VFIO GPU Passthrough Setup (NVIDIA 4090)
 
   
 
@@ -174,7 +174,7 @@ lspci -nnk -d 10de:2684  # Should show vfio-pci in use
 
 ---
 
-## **🖥️ Hyprland Keybindings (Detailed)**
+##  Hyprland Keybindings (Detailed)
 
   
 
@@ -207,7 +207,7 @@ bind = $mainMod, Q, killactive
 
 ---
 
-## **🔁 Timeshift**
+## Timeshift
 
   
 
@@ -219,7 +219,7 @@ sudo dnf install timeshift
 
 ---
 
-## **💻 Virtualization & Looking Glass Setup**
+## Virtualization & Looking Glass Setup
 
   
 
@@ -268,8 +268,6 @@ exec-once = ~/.config/hypr/scripts/loadconfig.sh
 
 ---
 
-This guide represents my real-world Fedora 42 setup for a high-performance Linux workstation and VM gaming environment. Happy hacking!
 
-  
 
 — Franco
