@@ -258,6 +258,27 @@ exec-once = ~/.config/hypr/scripts/loadconfig.sh
 
 ---
 
+## Máquina Virtual Windows (XML QEMU)
+Para crear tu VM con passthrough de GPU, usa el siguiente XML como plantilla. Guarda el XML como WindowsX.xml y luego impórtalo:
+```bash
+virsh define guindousdiez.xml
+virsh start GuindousDiez
+```
+
+Incluye:
+
+* Hugepages activados
+
+* Memoria bloqueada y no compartida
+
+* CPU topology detallada
+
+* Q35 machine type con UEFI
+
+* Looking Glass con IVSHMEM
+
+
+---
 ## **🔍 Enlaces utiles**
 
 - [Hyprland Dotfiles + Install](https://github.com/mylinuxforwork/dotfiles/wiki/Installation)
@@ -272,3 +293,9 @@ exec-once = ~/.config/hypr/scripts/loadconfig.sh
 
 
 — Franco
+
+
+
+
+
+
