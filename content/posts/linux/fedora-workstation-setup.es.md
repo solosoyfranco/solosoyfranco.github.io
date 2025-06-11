@@ -277,6 +277,112 @@ Incluye:
 
 * Looking Glass con IVSHMEM
 
+XML:
+```xml
+<domain xmlns:qemu="http://libvirt.org/schemas/domain/qemu/1.0" type="kvm">
+  <name>GuindousDiez</name> <!-- Nombre personalizado de la VM -->
+  <uuid>8e5f6520-a6e2-4717-9383-c5f26b1c3c79</uuid> <!-- UUID único -->
+
+  <metadata>
+    <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
+      <libosinfo:os id="http://microsoft.com/win/10"/> <!-- Detectar como Windows 10 -->
+    </libosinfo:libosinfo>
+  </metadata>
+
+  <!-- Memoria RAM: 32 GB con hugepages activadas para mejorar rendimiento -->
+  <memory unit="KiB">33554432</memory>
+  <currentMemory unit="KiB">33554432</currentMemory>
+  <memoryBacking>
+    <hugepages/>
+    <nosharepages/>
+    <locked/>
+  </memoryBacking>
+
+  <vcpu placement="static">12</vcpu> <!-- 12 hilos para la VM -->
+
+  <!-- Arranque con UEFI (requerido para Windows moderno + passthrough) -->
+  <os firmware="efi">
+    <type arch="x86_64" machine="pc-q35-9.2">hvm</type>
+    <firmware>
+      <feature enabled="no" name="enrolled-keys"/>
+      <feature enabled="no" name="secure-boot"/>
+    </firmware>
+    <loader readonly="yes" type="pflash" format="qcow2">/usr/share/edk2/ovmf/OVMF_CODE_4M.qcow2</loader>
+    <nvram template="/usr/share/edk2/ovmf/OVMF_VARS_4M.qcow2" templateFormat="qcow2" format="qcow2">/var/lib/libvirt/qemu/nvram/GuindousDiez_VARS.qcow2</nvram>
+    <boot dev="hd"/>
+  </os>
+
+  <!-- Opciones de virtualización de Hyper-V necesarias para Windows -->
+  <features>
+    <acpi/>
+    <apic/>
+    <hyperv mode="custom">
+      <relaxed state="on"/>
+      <vapic state="on"/>
+      <spinlocks state="on" retries="8191"/>
+      <vpindex state="on"/>
+      <runtime state="on"/>
+      <synic state="on"/>
+      <stimer state="on"/>
+      <reset state="on"/>
+      <vendor_id state="on" value="randomid"/>
+      <frequencies state="on"/>
+      <tlbflush state="on"/>
+      <ipi state="on"/>
+      <avic state="on"/>
+    </hyperv>
+    <vmport state="off"/>
+  </features>
+
+  <!-- Passthrough completo del CPU del host -->
+  <cpu mode="host-passthrough" check="none" migratable="on">
+    <topology sockets="1" dies="1" clusters="1" cores="6" threads="2"/>
+    <cache mode="passthrough"/>
+    <feature policy="require" name="topoext"/>
+  </cpu>
+
+  <clock offset="localtime">...</clock>
+
+  <!-- Disco de la VM: asegúrate que /dev/sda sea el disco dedicado -->
+  <devices>
+    <disk type="block" device="disk">
+      <driver name="qemu" type="raw" cache="none" io="native" discard="unmap"/>
+      <source dev="/dev/sda"/>
+      <target dev="sda" bus="sata"/>
+    </disk>
+
+    <!-- CD-ROM con ISO instalador de Windows -->
+    <disk type="file" device="cdrom">
+      <driver name="qemu" type="raw"/>
+      <source file="/path/to/windows.iso"/> <!-- <-- CAMBIA AQUÍ -->
+      <target dev="sdb" bus="sata"/>
+      <readonly/>
+    </disk>
+
+    <!-- GPU Passthrough: Asegúrate de que las direcciones PCI coincidan con tu GPU -->
+    <hostdev mode="subsystem" type="pci" managed="yes">
+      <source>
+        <address domain="0x0000" bus="0x01" slot="0x00" function="0x0"/>
+      </source>
+    </hostdev>
+    <hostdev mode="subsystem" type="pci" managed="yes">
+      <source>
+        <address domain="0x0000" bus="0x01" slot="0x00" function="0x1"/>
+      </source>
+    </hostdev>
+
+    <!-- Looking Glass Shared Memory -->
+    <qemu:commandline>
+      <qemu:arg value="-object"/>
+      <qemu:arg value="memory-backend-file,id=looking-glass,mem-path=/dev/kvmfr0,size=128M,share=yes"/>
+      <qemu:arg value="-device"/>
+      <qemu:arg value="ivshmem-plain,id=shmem0,memdev=looking-glass"/>
+    </qemu:commandline>
+  </devices>
+</domain>
+```
+
+
 
 ---
 ## **🔍 Enlaces utiles**
