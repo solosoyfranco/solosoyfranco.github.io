@@ -132,6 +132,7 @@ const renderHtml = (data) => {
   const contactPieces = [
     data.location,
     data.contact.email,
+    data.contact.blog,
     data.contact.linkedin,
     data.contact.github,
   ];
