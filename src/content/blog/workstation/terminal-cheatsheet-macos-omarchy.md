@@ -63,6 +63,6 @@ Instead of searching shell history or reading configuration files, I can open on
 
 You can find the complete reference here:
 
-- **[Terminal Cheatsheet](../docs/terminal-cheatsheet.md)**
+- **[Terminal Cheatsheet](https://github.com/jfrancolopez/dotfiles/blob/main/docs/terminal-cheatsheet.md)**
 
 It includes every alias, tmux shortcut, Neovim keybinding, helper script, and workflow that's part of my daily setup.
